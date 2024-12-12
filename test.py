@@ -1,9 +1,7 @@
 import streamlit as st
 from PIL import Image
 from chemcrow.agents import ChemCrow
-# from chemcrow-public.chemcrow.agents import ChemCrow
-# chem_model = ChemCrow(model="gpt-4-0613", temp=0.1, streaming=False)
-# chem_model.run("What is the molecular weight of tylenol?")
+
 
 from langchain.callbacks import wandb_tracing_enabled
 from chemcrow.agents import ChemCrow, make_tools
