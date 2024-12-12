@@ -6,7 +6,7 @@ st.image(logo)
 # st.sidebar.text_input("OpenAI API Key", type="password",key="openai_api_key_s")
 
 #获取api加载模型工具
-api = "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"
+api = ""
 chem_model = ChemCrow(model="gpt-4-0613",tools_model="gpt-4-turbo-preview", temp=0.1, streaming=True,openai_api_key=api)
 
 #message处理
